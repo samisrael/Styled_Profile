@@ -1,0 +1,44 @@
+.main {
+  background-color: darkblue;
+  text-align: center;
+}
+.heading {
+  padding: 0.75em 0.75em 0.05em 0.5em;
+  color: rgb(255, 179, 66);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.heading:hover {
+  background-color: rgb(255, 179, 66);
+  color: white;
+}
+.description {
+  padding: 0.05em 0.75em 0.75em 0.5em;
+  border: 0px 1px 1px 1px dashed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.description:hover {
+  background-color: rgb(255, 179, 66);
+  color: darkblue;
+}
+.sub-main {
+  padding: 0.5em;
+  background-color: rgb(255, 179, 66);
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  border-radius: 50%;
+}
+.bio {
+  padding: 0.5em 1em;
+  color: darkblue;
+  font-family: "Courier New", Courier, monospace;
+}
+.bio:hover {
+  color: rgb(255, 179, 66);
+  background-color: darkblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
